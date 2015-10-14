@@ -10,7 +10,7 @@ puts "Informe o seu peso em kg (utilize pontos ao invés de vírgula)"
 
 peso = gets.to_f
 
-imc = peso/(altura**2)
+imc = (peso/(altura**2)).round(2)
 
 if imc<17 
 	puts "IMC = #{imc}; Muito abaixo do peso"
