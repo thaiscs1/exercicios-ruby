@@ -1,7 +1,6 @@
 #palavras palindromas
 
 
-
 sn="s"
 
 while sn!="n"
